@@ -14,5 +14,7 @@ jobs:
       - name: print dir
         run: ls -a
       - name: compile code
-        run: g++ any.cpp
+        run: g++ any.cpp -o any
+      - name: launch
+        run: ./any.out
       
